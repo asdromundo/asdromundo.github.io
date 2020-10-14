@@ -10,7 +10,7 @@ phone:
 website: https://asdrome.digital/
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 twitter_username: asdromundo
@@ -46,13 +46,19 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images
+  Hola! Mi nombre es Antonio Sebastián, y soy un científico de la computación, ó computologo. ¿Qué es eso? Bueno, de la misma manera que existen ciencias que estudian al planeta Tierra, los fénomenos sociales y al ámbito de la salud, existe un área de estudio sobre las capacidades de las computadoras. No se trata de estudiar necesariamente tu laptop o la PC de sobremesa que tienes en tu escritorio, sí no de estudiar las maquinas teóricas que llevaron a crear lo que nosotros conocemos como computadoras. 
+  
+  - ***¿Qué problemas pueden ser resueltos con una computadora?*** Es una cuestión casi filosófica, después de todo, ni siquiera sabemos que problemas podemos resolver como humanos. 
+  
+  - ***¿Es una solución dada a un problema. la solución óptima?***. Éstas son cuestiones importantes para áreas como la Inteligencia Artificial, el aprendizaje de máquina ó el manejo de Big Data, pues todas ellas son aplicaciones directas de las Ciencias de la Computación.
+
+#  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+#  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
+#    - Lists
+#    - Tables
+#    - <a href="google.com">Links</a>
+#    - Images
 
 # Projects Section
 projects_title: Proyectos #(Use this to override about projects section title)
@@ -64,7 +70,7 @@ experience_title: Experiencia #(Use this to override about experience section ti
 education_title: Educación #(Use this to override about education section title)
 
 # More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
+more_title: Intereses #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
   This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
