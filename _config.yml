@@ -1,0 +1,81 @@
+# Site
+repository: asdromundo/asdromundo.github.io
+favicon: images/favicon.ico
+
+# Personal info
+name: Antonio Sebastián Dromundo Escobedo
+title: Computer Scientiest
+email: sebastiandromundo@outlook.com
+website: https://asdrome.digital/
+
+# Social links
+twitter_username: asdromundo
+github_username:  asdromundo
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: asdromundo
+linkedin_username: asdromundo
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: Acerca de mí
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hola, mi nombre es Antonio Sebastián y soy un científico de la computación, o computólogo. ¿Qué significa eso? De la misma manera en la que existen ciencias que estudian la Tierra, la salud, o el área social existe un ámbito dedicado a estudiar las capacidades de las computadoras: <b>¿Qué problemas puede resolver una computadora?, ¿Es ésta solución al problema, la solución óptima?</b>. Áreas cono la Inteligencia Artificial, Machine Learning o Big Data, son aplicaciones directas de las Ciencias de la Computación.
+
+
+# Projects Section
+# projects_title: Projects
+- layout: right
+  name: asdrome
+  link: https://asdrome.digital/
+  github: asdrome/
+  quote: >
+    Difusión científica de la cultura digítal, orientada a popularizar las Ciencias de la Computaciónen el ámbito cotidiano.
+  description: | # this will include new lines to allow paragraphs
+    El impacto de las Ciencias de la Computación en la vida cotidiana ha cambiado la sociedad a distintos niveles,
+    sin embargo no todas las personas están conscientes de ello.
+
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+- layout: left
+  name: UNAM
+  dates: 2018 - ?
+  qualification: Licenciatura en Ciencias de la Computación
+  quote: >
+    Short institution or course description (optional)
+  description: | # this will include new lines to allow paragraphs
+    Description of qualification
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+   - Rock climbing
+   - Gaming
+   - Knitting
+   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+# Darkmode
+darkmode: true
