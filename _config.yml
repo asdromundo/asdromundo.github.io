@@ -53,13 +53,20 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Hello there, 
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  My name is Antonio Sebastián Dromundo Escobedo, and I'm a *computer scientist*.
+
+  Developer, geek, guitarist, and swimmer, I'm passionate about **open-source projects** and making technology accessible for **everyone**.
+
+  I'm curious about **data science** and **cloud computing**, looking to bring the benefits of computer science to non-related fields.
+
+  I made a brief incursion to agronomic science. It led me to reflect if tech advances are getting to all the people that need them.
+
+  **My life project** is to make technology a pillar of everyday life in Latin America.
+  Education, science, and well-living for all.
+
+  <mark>Just have it to make it fun.<mark>
 
 content:
   - title: Projects # Title for the section
@@ -96,11 +103,12 @@ content:
     layout: list
     content:
       - layout: top-right
-        title: Institution name
+        title: Universidad Autónoma de México (UNAM)
         sub_title: BSc Computer Science
         caption: 2018-2023
         quote: >
-          Short institution or course description (optional)
+          Established in 1910, UNAM is the largest university in Latin America.
+           It generates extensive researh publications and patents in areas as robotics, computer sciences and physics (among others). 
         description: | # this will include new lines to allow paragraphs
           Description of qualification
   - title: A Little More About Me
@@ -111,7 +119,7 @@ content:
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
