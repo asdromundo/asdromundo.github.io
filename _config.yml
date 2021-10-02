@@ -66,39 +66,39 @@ about_content: | # this will include new lines to allow paragraphs
   **My life project** is to make technology a pillar of everyday life in Latin America.
   Education, science, and well-living for all.
 
-  <mark>Just have it to make it fun.<mark>
+  > <mark>You just have to make it fun.<mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       title: Project name
+  #       link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #       link_text: Link Text
+  #       additional_links:
+  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #           icon: fab fa-github
+  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #           icon: fab fa-github
+  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #       quote: >
+  #         Short overview of the project (optional)
+  #       description: | # this will include new lines to allow paragraphs
+  #         Description about the work on/with the project
+  # - title: Experience
+  #   layout: list
+  #   content:
+  #     - layout: right
+  #       title: Company name
+  #       sub_title: Job title
+  #       caption: Date Range (eg. November 2016 - present)
+  #       link: Link to company (optional)
+  #       quote: >
+  #         Short description of the company (optional)
+  #       description: | # this will include new lines to allow paragraphs
+  #         Description of role
   - title: Education
     layout: list
     content:
@@ -110,13 +110,17 @@ content:
           Established in 1910, UNAM is the largest university in Latin America.
            It generates extensive researh publications and patents in areas as robotics, computer sciences and physics (among others). 
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+       
+          During my studies, I've learned strong foundations on **algorithms** and **data structures**. I've programmed with functional programming acquiring a good notion of *robustness* and *security* in programs. I care about **code efficiency** and **algorithm optimization**.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+          I founded a *Computer Science Club* to share resources and provide help to newer students. It has helped me to develop my **teamwork** and **leading** skills.
+
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: false
